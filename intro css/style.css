@@ -1,0 +1,94 @@
+* { 
+    box-sizing: border-box;
+    margin: 2;
+    padding: 2;
+    }
+    
+    nav {
+        display: flex;
+        background: black;
+        
+    
+    
+    }
+    
+    ul {
+        display: flex;
+        list-style: none;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    
+    li{
+        color: rgb(163, 161, 161);
+        padding-right: 40px;
+    }
+    
+    .white{
+        background: rgb(214, 213, 213);
+    }
+    
+    .carousel {
+        height: 250px;
+        width: 1250px;
+        background: rgb(202, 201, 201);
+    }
+    
+    span {
+        font-size: 16px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    section {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .bold {
+        justify-content: center;
+        font-size: medium;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        
+    }
+    
+    .article {
+        display: flex;
+        justify-content: center;
+    
+    }
+    
+    article {
+        height: 300px;
+        width: 600px;
+        justify-content: space-between;
+        background-color: rgb(201, 200, 200);
+        margin: 10px;
+    }
+    
+    hr {
+        border: black;
+        overflow: visible;
+        height: 6px solid;
+        width: 900px;
+        background: grey;
+    }
+    
+    
+    
+    .formu {
+        display: flex;
+        width: 100%;
+    }
+    
+    input {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 6px;
+        justify-content: center;
+        width: 800px;
+        margin: 24px;
+    }
+    
+    textarea {
+        width: 800px;
+        height: 100px;
+        margin-inline: 24px;
+    }
